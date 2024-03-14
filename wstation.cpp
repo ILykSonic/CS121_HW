@@ -19,7 +19,7 @@ bool isFloat(string s) {
 }
 
 int main() {
-    ifstream infile(R"(C:\Users\nilan\CLionProjects\untitled\cmake-build-debug\AL_Weather_Stations_Dec_23 (1).txt)");
+    ifstream infile(R"(C:\Users\sonic\CLionProjects\untitled\cmake-build-debug\AL_Weather_Stations_Dec_23 (1).txt)");
     ofstream outfile("output.txt");
 
     if (!infile || !outfile) {
